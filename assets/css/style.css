@@ -9,16 +9,17 @@ body {
   background-image: url(../images/bananas.png);
 }
 
-h1 {
+.h1 {
   font-family: Georgia, "Times New Roman", Times, serif;
   color: #4aaaa5;
 }
 
 header {
-  width: 100%;
+  width: auto;
   height: auto;
   border-bottom: 2px solid #cccccc;
   background-color: #ffffff;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 header .container {
@@ -33,7 +34,7 @@ header .container {
 }
 .box1 {
   display: inline-block;
-  width: 570px;
+  width: auto;
   margin: 40px 0;
   padding: 40px;
   border: 1px solid #dddddd;
@@ -47,6 +48,7 @@ header .container {
   padding-bottom: 1em;
   margin-bottom: 1em;
   border-bottom: 2px solid #dddddd;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 .box1 p {
@@ -105,28 +107,6 @@ img {
   color: #000000;
 }
 
-.aside {
-  margin: auto;
-  padding: 20px;
-  text-decoration: none;
-}
-
-.aside ul li a {
-  text-decoration: none;
-  color: #b1adb3;
-  display: inline;
-}
-.aside ul li {
-  text-align: center;
-}
-.aside ul li a:hover {
-  color: #4aaaa5;
-}
-
-.aside h2 {
-  color: #4aaaa5;
-}
-
 .logo {
   display: inline-block;
   font-weight: bold;
@@ -148,4 +128,46 @@ footer {
   color: #cccccc;
   background-color: #666666;
   border-top: 7px solid #4aaaa5;
+}
+
+.contactwrapper {
+  width: 540px;
+  margin: 0 auto 6em auto;
+  clear: both;
+}
+.box2 {
+  display: inline-block;
+  width: auto;
+  margin: 40px 0;
+  padding: 40px;
+  border: 1px solid #dddddd;
+  background-color: #ffffff;
+}
+
+.contactwrapper label {
+  display: block;
+  padding-bottom: 1em;
+}
+
+.contactwrapper input {
+  width: 100%;
+  border: 1px solid #cccccc;
+  padding: 10px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.contactwrapper textarea {
+  width: 475px;
+  padding: 10px;
+  margin: 10px;
+}
+.box2 h1 {
+  color: #4aaaa5;
+  margin-bottom: 20px;
+  font-weight: bold;
+  padding-bottom: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid #dddddd;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
